@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset = "UTF-8"><!-- character set of the page -->
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1.0"><!-- page look good on all device-->
+        <meta http-equiv = "X-UA-Compatible" content = "ie=edge">
+        <meta name = "description" content = ""> <!-- Description of the page -->
+        <title>Javascript Chess Game</title>
+        <link rel = "stylesheet" href = "Chess.css">
+        <link rel="stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- link to the font awesome library -->
+        <script src = "https://code.jquery.com/jquery-3.6.0.min.js" defer></script> <!-- link to the jquery library -->
+        <script src="Chess.js" defer></script>
+    </head>
+    <body>
+        <div class="game-header">
+            <h1><i class="fa fa-chess"></i> Chess Game <i class="fa fa-chess"></i></h1>
+        </div>
+        <div class = "container">
+            <div class = "chessboard">
+                <div class = "row" id = "row-8">
+                    <div class = "square" id ='a_8'></div>
+                    <div class = "square black" id = 'b_8'></div>
+                    <div class = "square" id ='c_8'></div>
+                    <div class = "square black" id = 'd_8'></div>
+                    <div class = "square" id ='e_8'></div>
+                    <div class = "square black" id = 'f_8'></div>
+                    <div class = "square" id ='g_8'></div>
+                    <div class = "square black" id = 'h_8'></div>
+                </div>
+                <div class = "row" id = "row-7">
+                    <div class = "square black" id ='a_7'></div>
+                    <div class = "square" id = 'b_7'></div>
+                    <div class = "square black" id ='c_7'></div>
+                    <div class = "square" id = 'd_7'></div>
+                    <div class = "square black" id ='e_7'></div>
+                    <div class = "square" id = 'f_7'></div>
+                    <div class = "square black" id ='g_7'></div>
+                    <div class = "square" id = 'h_7'></div>
+                </div>
+                
+                <div class = "row" id = "row-6">
+                    <div class = "square" id ='a_6'></div>
+                    <div class = "square black" id = 'b_6'></div>
+                    <div class = "square" id ='c_6'></div>
+                    <div class = "square black" id = 'd_6'></div>
+                    <div class = "square" id ='e_6'></div>
+                    <div class = "square black" id = 'f_6'></div>
+                    <div class = "square" id ='g_6'></div>
+                    <div class = "square black" id = 'h_6'></div>
+                
+                </div>
+                
+                <div class = "row" id = "row-5">
+                    <div class = "square black" id ='a_5'></div>
+                    <div class = "square" id = 'b_5'></div>
+                    <div class = "square black" id ='c_5'></div>
+                    <div class = "square" id = 'd_5'></div>
+                    <div class = "square black" id ='e_5'></div>
+                    <div class = "square" id = 'f_5'></div>
+                    <div class = "square black" id ='g_5'></div>
+                    <div class = "square" id = 'h_5'></div>
+                </div>
+
+                <div class = "row" id = "row-4">
+                    <div class = "square" id ='a_4'></div>
+                    <div class = "square black" id = 'b_4'></div>
+                    <div class = "square" id ='c_4'></div>
+                    <div class = "square black" id = 'd_4'></div>
+                    <div class = "square" id ='e_4'></div>
+                    <div class = "square black" id = 'f_4'></div>
+                    <div class = "square" id ='g_4'></div>
+                    <div class = "square black" id = 'h_4'></div>
+                </div>
+
+                <div class = "row" id = "row-3">
+                    <div class = "square black" id ='a_3'></div>
+                    <div class = "square" id = 'b_3'></div>
+                    <div class = "square black" id ='c_3'></div>
+                    <div class = "square" id = 'd_3'></div>
+                    <div class = "square black" id ='e_3'></div>
+                    <div class = "square" id = 'f_3'></div>
+                    <div class = "square black" id ='g_3'></div>
+                    <div class = "square" id = 'h_3'></div>
+                </div>
+                <div class = "row" id = "row-2">
+                    <div class = "square" id ='a_2'></div>
+                    <div class = "square black" id = 'b_2'></div>
+                    <div class = "square" id ='c_2'></div>
+                    <div class = "square black" id = 'd_2'></div>
+                    <div class = "square" id ='e_2'></div>
+                    <div class = "square black" id = 'f_2'></div>
+                    <div class = "square" id ='g_2'></div>
+                    <div class = "square black" id = 'h_2'></div>
+                </div>
+
+                <div class = "row" id = "row-1">
+                    <div class = "square black" id ='a_1'></div>
+                    <div class = "square" id = 'b_1'></div>
+                    <div class = "square black" id ='c_1'></div>
+                    <div class = "square" id = 'd_1'></div>
+                    <div class = "square black" id ='e_1'></div>
+                    <div class = "square" id = 'f_1'></div>
+                    <div class = "square black" id ='g_1'></div>
+                    <div class = "square" id = 'h_1'></div>
+                </div>
+            </div>
+            <!-- <div class ="reset-button">
+                <button id ="reset"> Reset the game </button>
+            </div> -->
+        </div> 
+    </body>
+</html>
